@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "59a48ff4-93a8-4ad8-acf4-10f0f83bbcfe",
+		"name": "EverisTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Creaccion de usuario",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "pass",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\": \"ssssaaas\",\r\n\"email\": \"asdqaaq1@aqhha.com\",\r\n\"password\": \"Aqyy36\",\r\n\"token\": \"asdasd\",\r\n\"phones\":[{\"number\":\"8\",\"citycode\":\"1\",\"countrycode\":\"57\"},\r\n{\"number\":\"\",\"citycode\":\"\",\"countrycode\":\"58887\"}]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/persons",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"persons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Todas las personas",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "pass",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/persons",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"persons"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

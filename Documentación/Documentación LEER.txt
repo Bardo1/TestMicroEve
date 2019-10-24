@@ -1,0 +1,59 @@
+Hola
+
+
+Algunos puntos informativos de lo realizado,
+
+
+1. El componente back esta realizado con una capa de authentication basic de usuario y password:
+
+  user:pass
+
+
+2. Envío el documento "EverisTest.postman_collection" donde están guardadas las peticiones y donde es 
+
+ mas fácil, para utilizarlas. Solo se debe importar ese archivo
+
+
+ Realicé dos enpoints de entrada:
+
+
+ -. http://localhost:8080/persons (Post)
+
+   Donde se envía el objeto de entrada especifico (Persona), para su ingreso en la base de datos de memoria H2
+
+
+ -. http://localhost:8080/persons (Get)
+
+   Para traer todas las personas ingresadas, con sus correspondientes números de teléfono
+
+
+3. La base de datos es H2 por lo que la carga se realiza en memoria. Carga el esquema
+
+  de forma automática de los documentos "data" y "schema" de la carpeta resources de la API.
+
+  Además se vuelven a adjuntar para su revisión.
+
+
+4. Envío la foto de un modelo de clases que muestra las dos entidades que utilizo y 
+
+
+5. En ámbitos de programación hice las tres validaciones correspondientes y agregué un manejador de error
+
+que se encarga de capturar y enviar el correspondiente error.
+
+
+6. Agregué Swagger para ser testeado de forma alternativa
+
+
+7. Lo mando para su ejecución y compilación en Gradle (Aunque prefiero Maven y tambien mando esa version, por si acaso)
+
+
+8. Y no alcancé a abordar los test unitarios por una cosa de tiempo
+
+
+Eso como los puntos principales.
+
+Atento a cualquier cosa
+
+Gracias.
+  
