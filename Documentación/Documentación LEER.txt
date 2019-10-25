@@ -9,46 +9,47 @@ Algunos puntos informativos de lo realizado,
   user:pass
 
 
-2. EnvÌo el documento "EverisTest.postman_collection" donde est·n guardadas las peticiones y donde es 
+2. Env√≠o el documento "EverisTest.postman_collection" donde est√°n guardadas las peticiones y donde es 
 
- mas f·cil, para utilizarlas. Solo se debe importar ese archivo
+ mas f√°cil, para utilizarlas. Solo se debe importar ese archivo
 
 
- RealicÈ dos enpoints de entrada:
+ Realic√© dos enpoints de entrada:
 
 
  -. http://localhost:8080/persons (Post)
 
-   Donde se envÌa el objeto de entrada especifico (Persona), para su ingreso en la base de datos de memoria H2
+   Donde se env√≠a el objeto de entrada especifico (Persona), para su ingreso en la base de datos de memoria H2
 
 
  -. http://localhost:8080/persons (Get)
 
-   Para traer todas las personas ingresadas, con sus correspondientes n˙meros de telÈfono
+   Para traer todas las personas ingresadas, con sus correspondientes n√∫meros de tel√©fono
 
 
 3. La base de datos es H2 por lo que la carga se realiza en memoria. Carga el esquema
 
-  de forma autom·tica de los documentos "data" y "schema" de la carpeta resources de la API.
+  de forma autom√°tica de los documentos "data" y "schema" de la carpeta resources de la API.
 
-  Adem·s se vuelven a adjuntar para su revisiÛn.
-
-
-4. EnvÌo la foto de un modelo de clases que muestra las dos entidades que utilizo y 
+  Adem√°s se vuelven a adjuntar para su revisi√≥n.
 
 
-5. En ·mbitos de programaciÛn hice las tres validaciones correspondientes y agreguÈ un manejador de error
+4. Env√≠o la foto de un modelo de clases que muestra las dos entidades que utilizo y 
+
+
+5. En √°mbitos de programaci√≥n hice las tres validaciones correspondientes y agregu√© un manejador de error
 
 que se encarga de capturar y enviar el correspondiente error.
 
 
-6. AgreguÈ Swagger para ser testeado de forma alternativa
+6. Agregu√© Swagger para ser testeado de forma alternativa
+   Se puede acceder por la siguiente URL del componente: http://localhost:8080/swagger-ui.html
 
 
-7. Lo mando para su ejecuciÛn y compilaciÛn en Gradle (Aunque prefiero Maven y tambien mando esa version, por si acaso)
+7. Lo mando para su ejecuci√≥n y compilaci√≥n en Gradle (Aunque prefiero Maven y tambien mando esa version, por si acaso)
 
 
-8. Y no alcancÈ a abordar los test unitarios por una cosa de tiempo
+8. Y no alcanc√© a abordar los test unitarios por una cosa de tiempo
 
 
 Eso como los puntos principales.
